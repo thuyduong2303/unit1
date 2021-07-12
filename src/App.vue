@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <duong msg1="Welcome Hoang Long ne"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import duong from './components/duong.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    duong
   }
 }
 </script>
